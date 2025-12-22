@@ -14,7 +14,7 @@ sources:
       - name: orders
         freshness:
           warn_after:
-            count: :200
+            count: 200
             period: hour
           error_after:
             count: 200

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: strip
+    database: raw
+    schema: strip
+    tables:
+      - name: payments
+ 
