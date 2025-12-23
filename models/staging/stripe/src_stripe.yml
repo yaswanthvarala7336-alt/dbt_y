@@ -1,9 +1,7 @@
 version: 2
 
 sources:
-  - name: strip
-    database: raw
-    schema: strip
+  - name: stripe
+    schema: raw.strip
     tables:
       - name: payments
- 
